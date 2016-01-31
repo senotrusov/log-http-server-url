@@ -1,4 +1,4 @@
-# Log http server URL to console, displaying all local IP addresses and host name
+# Log HTTP server URL to console, displaying all local IP addresses and host name
 
 ## Usage
 
