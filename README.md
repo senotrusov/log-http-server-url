@@ -2,7 +2,7 @@
 
 ## Usage
 
-```
+```javascript
 logHttpServerUrl = require('log-http-server-url')
 
 logHttpServerUrl(port = 8000, host = 'localhost')
@@ -26,7 +26,7 @@ By hostname:
 
 Install with the [npm package manager](https://github.com/npm/npm):
 
-```
+```bash
 npm install --save log-http-server-url
 ```
 
