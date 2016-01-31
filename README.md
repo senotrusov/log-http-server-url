@@ -1,11 +1,11 @@
-# Log HTTP server URL to console, displaying all local IP addresses and host name
+# Log HTTP server URLs to console, displaying all local IP addresses and host name
 
 ## Usage
 
 ```javascript
-logHttpServerUrl = require('log-http-server-url')
+logHttpServerUrls = require('log-http-server-urls')
 
-logHttpServerUrl(port = 8000, host = 'localhost')
+logHttpServerUrls(port = 8000, host = 'localhost')
 ```
 
 Will output something like this:
@@ -27,7 +27,7 @@ By hostname:
 Install with the [npm package manager](https://github.com/npm/npm):
 
 ```bash
-npm install --save log-http-server-url
+npm install --save log-http-server-urls
 ```
 
 ## License
