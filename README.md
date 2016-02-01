@@ -3,7 +3,7 @@
 ## Usage
 
 ```javascript
-logHttpServerUrls = require('log-http-server-urls')
+var logHttpServerUrls = require('log-http-server-urls')
 
 logHttpServerUrls(port = 8000, host = 'localhost')
 ```

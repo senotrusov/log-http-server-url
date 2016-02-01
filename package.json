@@ -1,6 +1,6 @@
 {
   "name": "log-http-server-urls",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Log http server URLs to console, displaying all local IP addresses and host name",
   "main": "index.js",
   "repository": {
