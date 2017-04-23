@@ -1,6 +1,6 @@
 {
   "name": "log-http-server-urls",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Log http server URLs to console, displaying all local IP addresses and host name",
   "keywords": [
     "log",

@@ -1,4 +1,6 @@
-# Log HTTP server URLs to console, displaying all local IP addresses and host name
+# Log HTTP server URLs to console
+
+A handy tool to display all local IP addresses and local host name.
 
 
 ## Usage
@@ -6,10 +8,15 @@
 ```javascript
 var logHttpServerUrls = require('log-http-server-urls')
 
-logHttpServerUrls(port = 8000, host = 'localhost')
+logHttpServerUrls(port, host)
 ```
 
-Will output something like this:
+`port` must be an Integer
+
+`host` may be a String hostname or may be `undefined`.
+
+In case of `undefined` it is assumed that server will listen for INADDR_ANY.
+A list of all local interfaces then will be displayed, e.g.:
 
 ```
 The server has been started, listening on all local interfaces (INADDR_ANY)
