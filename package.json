@@ -1,22 +1,17 @@
 {
   "name": "log-http-server-urls",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Log http server URLs to console, displaying all local IP addresses and host name",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/senotrusov/log-http-server-urls.git"
-  },
   "keywords": [
     "log",
     "http",
     "server",
     "console"
   ],
-  "author": "Stanislav Senotrusov (http://senotrusov.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/senotrusov/log-http-server-urls/issues"
-  },
-  "homepage": "https://github.com/senotrusov/log-http-server-urls#readme"
+  "homepage": "https://github.com/senotrusov/log-http-server-urls",
+  "bugs": "https://github.com/senotrusov/log-http-server-urls/issues",
+  "license": "Apache-2.0",
+  "author": "Stanislav Senotrusov",
+  "main": "index.js",
+  "repository": "senotrusov/log-http-server-urls"
 }
